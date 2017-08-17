@@ -18,5 +18,9 @@
     "test": "react-scripts test --env=jsdom",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/laurelherting/react-interactive-game.git",
+  "author": "Laurel Herting <laurel.herting@gmail.com>",
+  "license": "MIT"
 }
