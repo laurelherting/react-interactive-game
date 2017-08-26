@@ -80,7 +80,7 @@ class Game extends React.Component {
         'Move #' + move :
         'Game start';
       return (
-        <li>
+        <li key={move}>
           <a href="#" onClick={() => this.jumpTo(move)}>{desc}</a>
         </li>
       );
